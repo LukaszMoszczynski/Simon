@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+body #level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+body .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: #FEF2BF;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 1439px) {
+  body .container {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+body .container .column-small {
+  padding: 0 3%;
+  width: 300px;
+}
+
+@media only screen and (max-width: 1439px) {
+  body .container .column-small {
+    width: 600px;
+  }
+}
+
+body .container .column-small .title {
+  font-size: 2rem;
+  margin-bottom: 10%;
+}
+
+body .container .column-small .highscore {
+  font-size: 2rem;
+}
+
+body .container .column-large {
+  width: 600px;
+}
+
+body .container .column-large .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+body .container .column-large .row .btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+body .container .column-large .row .red {
+  background-color: red;
+}
+
+body .container .column-large .row .green {
+  background-color: green;
+}
+
+body .container .column-large .row .blue {
+  background-color: blue;
+}
+
+body .container .column-large .row .yellow {
+  background-color: yellow;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+/*# sourceMappingURL=style.css.map */
